@@ -24,7 +24,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 920px;
+  height: 690px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,23 +58,23 @@ body {
   z-index: 2;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .hero-content h1 {
-  font-size: 5em;
+  font-size: 3.75em;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
   font-family: 'Georgia', serif;
   line-height: 1.2;
 }
 
-.portfolio-button {
+.portafolio-button {
   background-color: #1c7291;
   color: #80e6cb;
-  padding: 15px 35px;
-  border: 5px solid #80e6cb;
+  padding: 12px 26px;
+  border: 4px solid #80e6cb;
   border-radius: 50px;
-  font-size: 1.3em;
+  font-size: 1em;
   cursor: pointer;
   transition: background-color 1s ease, transform 0.2s ease;
   font-family: 'Verdana', sans-serif;
@@ -82,7 +82,7 @@ body {
   letter-spacing: 1px;
 }
 
-.portfolio-button:hover {
+.portafolio-button:hover {
   background-color: #0039b3;
   transform: translateY(-3px);
 }
@@ -93,26 +93,27 @@ body {
   background-color: #fff;
   border-radius: 8px;
   text-align: center;
+  padding: 40px 0;
 }
 
 .quien-soy-section h2 {
-  font-size: 3.5em;
+  font-size: 2.7em;
   color: #1d938d;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .quien-soy-section p {
-  font-size: 1.4em;
-  line-height: 1.7;
+  font-size: 1.1em;
+  line-height: 1.6;
 }
 
 .boton-cv{
   background-color: #1a8e88;
   color: #d0e4e2;
-  padding: 15px 35px;
-  border: 5px solid #b2e3de;
+  padding: 12px 26px;
+  border: 4px solid #b2e3de;
   border-radius: 50px;
-  font-size: 1.3em;
+  font-size: 1em;
   cursor: pointer;
   transition: background-color 1s ease, transform 0.2s ease;
   font-family: 'Verdana', sans-serif;
@@ -128,7 +129,7 @@ body {
 
 .columna-izquierda {
   flex: 1;
-  padding: 20px 270px;
+  padding: 15px 200px;
   color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
@@ -144,7 +145,7 @@ body {
 }
 
 .imagen-quien-soy {
-  width: 600px;
+  width: 450px;
   height: auto;
   border-radius: 4px;
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
@@ -155,25 +156,25 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #f7f7f7;
-  padding: 60px 20px;
+  padding: 45px 15px;
 }
 
 .proyectos-arriba {
   background-color: #f7f7f7;
   color: #1d938d;
-  font-size: 2.8em;
+  font-size: 2.1em;
   font-weight: bold;
   text-align: center;
   width: 100%;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 
 .proyectos-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
-  max-width: 1200px;
+  gap: 20px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
@@ -184,37 +185,37 @@ body {
   text-align: left;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  flex-basis: calc(33.333% - 20px);
-  max-width: calc(33.333% - 20px);
-  min-height: 480px;
+  flex-basis: calc(33.333% - 13.33px);
+  max-width: calc(33.333% - 13.33px);
+  min-height: 360px;
   position: relative;
 }
 
 .imagen-proyecto {
   width: 100%;
-  height: 220px;
+  height: 165px;
   object-fit: cover;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 
 .columna-proyecto p {
-  font-size: 1em;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  padding: 0 20px;
+  font-size: 0.85em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  padding: 0 15px;
   flex-grow: 1;
   text-align: justify;
 }
 
 .columna-proyecto h3 {
-  font-size: 1.6em;
+  font-size: 1.3em;
   color: #333;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  padding: 0 20px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  padding: 0 15px;
   text-align: center;
   font-weight: bold;
 }
@@ -222,10 +223,10 @@ body {
 .boton-proyecto{
   background-color: #1a8e88;
   color: #d0e4e2;
-  padding: 15px 30px;
+  padding: 12px 25px;
   border: none;
   border-radius: 0 0 8px 8px;
-  font-size: 1.1em;
+  font-size: 0.9em;
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Verdana', sans-serif;
@@ -248,14 +249,14 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
-  padding: 50px 20px;
+  padding: 35px 15px;
 }
 
 .habilidades-arriba h2{
-  font-size: 3.5em;
+  font-size: 2.7em;
   font-weight: bold;
   color: #1d938d;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-align: center;
   padding-left: 0;
 }
@@ -264,9 +265,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   background-color: #ffffff;
-  max-width: 1000px;
+  max-width: 750px;
   width: 100%;
 }
 
@@ -277,24 +278,23 @@ body {
   justify-content: center;
   height: auto;
   width: auto;
-  margin-bottom: 20px;
-  padding: 10px;
+  margin-bottom: 15px;
+  padding: 8px;
 }
 
 .habilidad-icono{
-  height: 150px;
-  width: 150px;
-  padding: 10px;
+  height: 110px;
+  width: 110px;
+  padding: 8px;
   border-radius: 30%;
   object-fit: contain;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
-
 
 .footer {
   background-color: #1a6e6a;
   color: #ffffff;
-  padding: 40px 80px;
+  padding: 30px 60px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -305,20 +305,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 150px;
+  padding-left: 100px;
 }
 
 .footer-left h1 {
-  font-size: 3em;
-  margin-bottom: 30px;
+  font-size: 2.25em;
+  margin-bottom: 22px;
   font-weight: normal;
 }
 
 .social-icons {
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  margin-bottom: 50px;
+  gap: 15px;
+  margin-bottom: 37px;
 }
 
 .social-icon-img {
@@ -329,9 +329,9 @@ body {
 }
 
 .icon-circle {
-  width: 60px;
-  height: 60px;
-  border: 2px solid #ffffff;
+  width: 45px;
+  height: 45px;
+  border: 1.5px solid #ffffff;
   border-radius: 50%;
   background-color: transparent;
   display: flex;
@@ -341,7 +341,7 @@ body {
 }
 
 .icon-circle i {
-  font-size: 30px;
+  font-size: 22px;
   color: #ffffff;
   transition: color 0.3s ease;
 }
@@ -354,17 +354,16 @@ body {
   color: #80e6cb;
 }
 
-
 .footer-nav {
   display: flex;
-  gap: 40px;
-  margin-bottom: 50px;
+  gap: 30px;
+  margin-bottom: 37px;
 }
 
 .footer-nav a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
 .footer-nav a:hover {
@@ -372,19 +371,19 @@ body {
 }
 
 .footer-left p {
-  font-size: 1.2em;
+  font-size: 0.9em;
   margin-top: auto;
 }
 
 .footer-right {
   display: flex;
   align-items: flex-end;
-  padding-bottom: 20px;
-  padding-right: 150px;
+  padding-bottom: 15px;
+  padding-right: 100px;
 }
 
 .mail-illustration {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
@@ -392,14 +391,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 180px;
+  min-height: 135px;
   background-color: #ffffff;
-  padding: 40px 20px;
+  padding: 30px 15px;
   text-align: center;
 }
 
 .dynamic-text-wrapper {
-  font-size: 3.5em;
+  font-size: 2.7em;
   color: #1d938d;
   font-weight: bold;
   white-space: nowrap;
@@ -431,7 +430,7 @@ body {
 
 .testimonios-section {
   background-color: #ffffff;
-  padding: 80px 20px;
+  padding: 60px 15px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -439,9 +438,9 @@ body {
 }
 
 .testimonios-titulo {
-  font-size: 3.2em;
+  font-size: 2.4em;
   color: #1a6e6a;
-  margin-bottom: 60px;
+  margin-bottom: 45px;
   font-weight: bold;
 }
 
@@ -449,8 +448,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
-  max-width: 1200px;
+  gap: 20px;
+  max-width: 900px;
   width: 100%;
 }
 
@@ -458,12 +457,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  flex-basis: calc(33.333% - 20px);
-  max-width: calc(33.333% - 20px);
-  min-height: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(33.333% - 13.33px);
+  max-width: calc(33.333% - 13.33px);
+  min-height: 260px;
   position: relative;
   overflow: hidden;
 }
@@ -486,19 +485,19 @@ body {
 .testimonial-header {
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
   width: 100%;
   position: relative;
   z-index: 2;
 }
 
 .testimonial-avatar {
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 15px;
-  border: 3px solid rgba(255, 255, 255, 0.8);
+  margin-right: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 .testimonial-info {
@@ -509,40 +508,40 @@ body {
 }
 
 .testimonial-name {
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .testimonial-status {
-  font-size: 0.9em;
+  font-size: 0.7em;
   opacity: 0.8;
 }
 
 .testimonial-quote-icon {
-  width: 70px;
-  height: 70px;
-  min-width: 70px;
-  min-height: 70px;
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  min-height: 50px;
   color: rgba(255, 255, 255, 0.3);
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 10px;
+  right: 10px;
   z-index: 1;
 }
 
 .testimonial-text {
-  font-size: 1.1em;
-  line-height: 1.6;
-  margin-bottom: 20px;
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-bottom: 15px;
   font-weight: bold;
   position: relative;
   z-index: 2;
 }
 
 .testimonial-full-text {
-  font-size: 1em;
-  line-height: 1.5;
+  font-size: 0.8em;
+  line-height: 1.4;
   opacity: 0.9;
   position: relative;
   z-index: 2;
@@ -550,207 +549,207 @@ body {
 
 @media (max-width: 1024px) {
   .proyectos-grid {
-    gap: 25px;
+    gap: 20px;
   }
   .columna-proyecto {
-    flex-basis: calc(50% - 12.5px);
-    max-width: calc(50% - 12.5px);
-    min-height: 450px;
+    flex-basis: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    min-height: 380px;
   }
 
   .habilidades h2 {
-    font-size: 3em;
+    font-size: 2.25em;
   }
   .habilidad-icono {
-    height: 120px;
-    width: 120px;
+    height: 90px;
+    width: 90px;
   }
 
   .dynamic-text-wrapper {
-    font-size: 2.8em;
+    font-size: 2.1em;
   }
 
   .testimonios-titulo {
-    font-size: 2.8em;
+    font-size: 2.1em;
   }
   .testimonios-grid {
-    gap: 25px;
+    gap: 20px;
   }
   .testimonial-card {
-    flex-basis: calc(50% - 12.5px);
-    max-width: calc(50% - 12.5px);
-    min-height: 380px;
+    flex-basis: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    min-height: 300px;
   }
 }
 
 @media (max-width: 768px) {
   .hero-section {
-    height: 450px;
-    padding: 15px;
+    height: 340px;
+    padding: 10px;
   }
   .hero-content h1 {
-    font-size: 2.2em;
-    margin-bottom: 20px;
+    font-size: 1.7em;
+    margin-bottom: 15px;
   }
   .portfolio-button {
-    padding: 12px 25px;
-    font-size: 1em;
+    padding: 9px 20px;
+    font-size: 0.8em;
   }
 
   .quien-soy-section {
     flex-direction: column;
-    padding: 30px 15px;
+    padding: 22px 10px;
   }
   .columna-izquierda {
-    padding: 20px;
+    padding: 15px;
   }
   .columna-derecha {
     padding: 0;
   }
   .imagen-quien-soy {
-    width: 90%;
-    max-width: 400px;
+    width: 80%;
+    max-width: 300px;
   }
   .quien-soy-section h2 {
-    font-size: 2.5em;
+    font-size: 1.9em;
   }
   .quien-soy-section p {
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
   .boton-cv {
-    padding: 12px 25px;
-    font-size: 1em;
+    padding: 9px 20px;
+    font-size: 0.8em;
   }
 
   .mis-proyectos {
-    padding: 40px 10px;
+    padding: 30px 8px;
   }
   .proyectos-arriba {
-    font-size: 2em;
-    margin-bottom: 30px;
+    font-size: 1.5em;
+    margin-bottom: 22px;
   }
   .proyectos-grid {
-    gap: 20px;
-    padding: 0 10px;
+    gap: 15px;
+    padding: 0 8px;
   }
   .columna-proyecto {
-    flex-basis: 95%;
-    max-width: 95%;
+    flex-basis: 90%;
+    max-width: 90%;
     margin: 0 auto;
     min-height: unset;
   }
   .imagen-proyecto {
-    height: 180px;
+    height: 140px;
   }
   .columna-proyecto h3 {
-    font-size: 1.4em;
+    font-size: 1.1em;
   }
   .columna-proyecto p {
-    font-size: 0.95em;
+    font-size: 0.8em;
   }
   .boton-proyecto {
-    padding: 12px 25px;
-    font-size: 1em;
+    padding: 9px 20px;
+    font-size: 0.8em;
   }
 
   .habilidades h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
+    font-size: 1.9em;
+    margin-bottom: 22px;
   }
   .habilidades-contenedor {
-    gap: 20px;
+    gap: 15px;
   }
   .habilidad-icono {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
   }
 
   .footer {
     flex-direction: column;
-    padding: 30px 20px;
+    padding: 22px 15px;
     align-items: center;
     text-align: center;
   }
   .footer-left {
     align-items: center;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
   }
   .footer-left h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: 1.9em;
+    margin-bottom: 15px;
   }
   .social-icons {
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
   }
   .icon-circle {
-    width: 50px;
-    height: 50px;
+    width: 37px;
+    height: 37px;
   }
   .icon-circle i {
-    font-size: 25px;
+    font-size: 18px;
   }
   .footer-nav {
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 30px;
+    gap: 10px;
+    margin-bottom: 22px;
   }
   .footer-nav a {
-    font-size: 1.2em;
+    font-size: 0.9em;
   }
   .footer-left p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .footer-right {
-    margin-top: 20px;
+    margin-top: 15px;
     align-items: center;
   }
   .mail-illustration {
-    width: 250px;
+    width: 180px;
   }
 
   .dynamic-text-wrapper {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .testimonios-section {
-    padding: 60px 15px;
+    padding: 45px 10px;
   }
   .testimonios-titulo {
-    font-size: 2.5em;
-    margin-bottom: 40px;
+    font-size: 1.9em;
+    margin-bottom: 30px;
   }
   .testimonios-grid {
-    gap: 20px;
+    gap: 15px;
   }
   .testimonial-card {
-    flex-basis: 95%;
-    max-width: 95%;
+    flex-basis: 90%;
+    max-width: 90%;
     min-height: unset;
-    padding: 30px;
+    padding: 22px;
   }
   .testimonial-avatar {
-    width: 50px;
-    height: 50px;
+    width: 37px;
+    height: 37px;
   }
   .testimonial-name {
-    font-size: 1.2em;
+    font-size: 0.9em;
   }
   .testimonial-status {
-    font-size: 0.85em;
+    font-size: 0.65em;
   }
   .testimonial-text {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .testimonial-full-text {
-    font-size: 0.85em;
+    font-size: 0.7em;
   }
   .testimonial-quote-icon {
-    width: 60px;
-    height: 60px;
-    top: 10px;
-    right: 10px;
+    width: 45px;
+    height: 45px;
+    top: 7px;
+    right: 7px;
   }
 }

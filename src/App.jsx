@@ -27,7 +27,14 @@ function App() {
         </div>
         <div className="hero-content">
           <h1>Bienvenido a mi Portafolio Online</h1>
-          <button className="portfolio-button">VER PORTAFOLIO</button>
+          <a
+            href="#mis-proyectos-section"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='portafolio-button'
+          >
+            Ver Proyectos
+          </a>
         </div>
       </div>
 
@@ -190,9 +197,6 @@ function App() {
             <a href="#inicio-section">Inicio</a>
             <a href="#quien-soy-section">Sobre mí</a>
             <a href="#mis-proyectos-section">Proyectos</a>
-            <a href="#habilidades-section">Habilidades</a>
-            <a href="#testimonios-section">Testimonios</a>
-            <a href="#contacto-section">Contacto</a>
           </div>
           <p>Derechos reservados © Felipe Zapata</p>
         </div>
