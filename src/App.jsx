@@ -29,7 +29,6 @@ function App() {
           <h1>Bienvenido a mi Portafolio Online</h1>
           <a
             href="#mis-proyectos-section"
-            target="_blank"
             rel="noopener noreferrer"
             className='portafolio-button'
           >
